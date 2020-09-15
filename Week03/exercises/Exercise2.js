@@ -44,7 +44,7 @@ async function getPlanetforFirstSpeciesInFirstMovieForPersonAsync(id) {
   let planet = await myPromise(species.homeworld);
   await printValues({
     name: name.name,
-    film: film.title,
+    title: film.title,
     species: species.name,
     planet: planet.name,
   });
