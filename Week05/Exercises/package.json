@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "strict": true,
+        "module": "commonjs",
+        "outDir": "build",
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "dependencies": {
+        "@types/node-fetch": "^2.5.7"
+    }
+}
